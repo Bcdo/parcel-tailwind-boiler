@@ -1,4 +1,4 @@
-# Foobar
+`# Foobar
 
 Foobar is a Python library for dealing with word pluralization.
 
@@ -11,6 +11,26 @@ npm install
 ```
 
 ## Usage
+
+To run the dev server
+
+```bash
+npm run start
+```
+
+To build for production
+
+```bash
+npm run build
+```
+
+To do a clean
+
+```bash
+npm run clean
+```
+
+The clean script will run with both running the dev server as well as building. Never manually run any other of the scripts, they are controlled with npm-run-all plugin, and are used during the three commands above.
 
 ## Contributing
 
