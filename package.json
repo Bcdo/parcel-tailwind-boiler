@@ -1,6 +1,6 @@
 {
-  "name": "ottaremma",
-  "version": "0.1.0",
+  "name": "tailwind-boiler",
+  "version": "1.0.0",
   "description": "A page for family memories",
   "main": "index.js",
   "scripts": {
