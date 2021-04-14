@@ -1,6 +1,12 @@
-`# Foobar
+## Tailwind-boiler
 
-Foobar is a Python library for dealing with word pluralization.
+This is a boiler project with [Tailwond](https://tailwindcss.com/) for styling, and [Parcel](https://parceljs.org/) for building. This boiler is for smaller projects, but I will work on implementing [CraftCMS](https://craftcms.com/) and [Vue](https://vuejs.org/) as a fork to this git in the future.
+
+## Technology
+
+- Parcel
+- Tailwind JIT
+- PostCSS 8
 
 ## Installation
 
@@ -12,7 +18,7 @@ npm install
 
 ## Usage
 
-To run the dev server
+To run the dev server and serve it on localhost:1234
 
 ```bash
 npm run start
@@ -31,6 +37,12 @@ npm run clean
 ```
 
 The clean script will run with both running the dev server as well as building. Never manually run any other of the scripts, they are controlled with npm-run-all plugin, and are used during the three commands above.
+
+The files build and ready for production is in the dist folder.
+
+## Roadmap
+
+- [ ]Implement best practices from [html5boilerplate](https://html5boilerplate.com/)
 
 ## Contributing
 
