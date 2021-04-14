@@ -2,7 +2,6 @@
   "name": "tailwind-boiler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "postcss:watch": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env development -w",
     "postcss:build": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env production",
@@ -12,6 +11,10 @@
     "clean": "rm -rf dist .cache .parcel-cache",
     "build": "npm-run-all -s clean postcss:build parcel:build",
     "start": "npm-run-all -s clean -p postcss:watch parcel:serve"
+  },
+  "staticFiles": {
+    "staticPath": "./public/test.text",
+    "watcherGlob": "**"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +41,7 @@
     "tailwindcss": "^2.1.1"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0"
   }
 }
