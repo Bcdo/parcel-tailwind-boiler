@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.1.0] - 2021-
+## [1.1.1] -2021-04-15
+
+### Fixed
+
+- PurgeCSS will now purge the tailwind classes.
+- The js and css files will be minified.
+
+## [1.1.0] - 2021-04-15
 
 ### Added
 
@@ -25,7 +32,7 @@ All notable changes to this project will be documented in this file.
 - webmanifest will now work on build.
 - Content of public folder will be copied to the dist folder using [plugin](https://github.com/jvidalv/parcel-reporter-multiple-static-file-copier)
 
-## [1.0.0] - 2021-06-14
+## [1.0.0] - 2021-04-14
 
 ### Updated
 
@@ -33,7 +40,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-## [0.1.0] - 2021-06-13
+## [0.1.0] - 2021-04-13
 
 ### Initial
 
