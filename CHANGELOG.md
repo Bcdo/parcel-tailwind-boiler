@@ -9,11 +9,14 @@ All notable changes to this project will be documented in this file.
 - plugins.js for js plugins.
 - Manifest and icon
 - Parcel-plugin-static-files-copy
+- parcel config file
+- Static files dropped into static folder
 
 ### Updated
 
 - Index.html
 - Readme.md
+- package.json
 
 ### Fixed
 

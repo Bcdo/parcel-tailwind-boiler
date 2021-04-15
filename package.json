@@ -14,7 +14,7 @@
   },
   "multipleStaticFileCopier": [
     {
-      "origin": "public",
+      "origin": "static",
       "destination": "dist/"
     }
   ],
