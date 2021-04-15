@@ -1,6 +1,6 @@
 ## Tailwind-boiler
 
-This is a boiler project with [Tailwond](https://tailwindcss.com/) for styling, and [Parcel](https://parceljs.org/) for building. This boiler is for smaller projects, but I will work on implementing [CraftCMS](https://craftcms.com/) and [Vue](https://vuejs.org/) as a fork to this git in the future.
+This is a boiler project with [Tailwind](https://tailwindcss.com/) for styling, and [Parcel](https://parceljs.org/) for building. This boiler is for smaller projects, but I will work on implementing [CraftCMS](https://craftcms.com/) and [Vue](https://vuejs.org/) as a fork to this git in the future.
 
 ## Technology
 
