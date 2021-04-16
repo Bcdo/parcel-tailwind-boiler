@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Fixed the postcss and purgecss. The JIT mode will now work in tailwind, index.css will be built with only used classes, and when building, it will purge and minify.
+- Removed unnessesary purge config file.
 
 ## [1.1.1] - 2021-04-15
 
