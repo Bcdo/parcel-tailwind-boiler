@@ -38,12 +38,12 @@ npm run clean
 
 The clean script will run with both running the dev server as well as building. Never manually run any other of the scripts, they are controlled with [npm-run-all plugin](https://www.npmjs.com/package/npm-run-all), and are used during the three commands above.
 
-The files build and ready for production is in the dist folder. Make sure that the index.css file is empty when running the build, as the pcss will produce the content of the css file.
+The files build and ready for production is in the dist folder. It is fine if the index.css file is empty, as the pcss will produce the content of the css file.
 
 ## Roadmap
 
 - [x] Implement best practices from [html5boilerplate](https://html5boilerplate.com/)
-- [ ] Automate index.css handling
+- [ ] Implement Vue framework
 
 ## Contributing
 
