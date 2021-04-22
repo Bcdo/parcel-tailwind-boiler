@@ -2,15 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
-<<<<<<< HEAD
-## [1.1.1-2] - 2021-04-16
-=======
 ## [1.1.2] - 2021-04-22
 
 ### Updated
 
-- Index.html, added success message and confetti.
->>>>>>> feature/newindex
+- Index.html, message and confetti
+
+### Fixed
+
+- Postcss and PurgeCss.
+- Jit mode on tailwind.
+
+### Removed
+
+- Unnessesary purge config file
+
+## [1.1.1-2] - 2021-04-16
 
 ### Fixed
 
