@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2021-04-22
+
+### Fixed
+
+- Fixed an error with parcel, migrated to parcelv2 and cleaned up package.json
+
+### Updated
+
+- webmanifest has changed name towards common practice.
+
 ## [1.1.2] - 2021-04-22
 
 ### Updated
