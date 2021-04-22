@@ -2,32 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.0.0] - 2021-04-22
-
-### Fixed
-
-- Fixed an error with parcel, migrated to parcelv2 and cleaned up package.json
-
-### Updated
-
-- webmanifest has changed name towards common practice.
-
+<<<<<<< HEAD
+## [1.1.1-2] - 2021-04-16
+=======
 ## [1.1.2] - 2021-04-22
 
 ### Updated
 
-- Index.html, message and confetti
-
-### Fixed
-
-- Postcss and PurgeCss.
-- Jit mode on tailwind.
-
-### Removed
-
-- Unnessesary purge config file
-
-## [1.1.1-2] - 2021-04-16
+- Index.html, added success message and confetti.
+>>>>>>> feature/newindex
 
 ### Fixed
 
